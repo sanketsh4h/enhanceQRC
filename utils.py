@@ -1,7 +1,8 @@
 from bloqade import start, cast, var, save, load
 from bloqade.atom_arrangement import Chain, Square
 import numpy as np
-
+from sklearn.neural_network import MLPRegressor
+from sklearn.svm import SVR
 from sklearn.preprocessing import MinMaxScaler
 from reservoirpy.nodes import Ridge
 from sklearn.metrics import r2_score
